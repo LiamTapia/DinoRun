@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: 43731f2bbe92a384cbdcc6c72fd30cc3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6240841527544512091
+    second: dinoRunner sprites_0
+  - first:
+      213: -6603112917125724285
+    second: dinoRunner sprites_1
+  - first:
+      213: -6281076242738334661
+    second: dinoRunner sprites_2
+  - first:
+      213: 7805929582734785250
+    second: dinoRunner sprites_3
+  - first:
+      213: -3799414402534351546
+    second: dinoRunner sprites_4
+  - first:
+      213: -4972721361910052852
+    second: dinoRunner sprites_5
+  - first:
+      213: 8187996611910210760
+    second: dinoRunner sprites_6
+  - first:
+      213: 9206207554466282439
+    second: dinoRunner sprites_7
+  - first:
+      213: 2311235745249131489
+    second: dinoRunner sprites_8
+  - first:
+      213: -5171001542852034975
+    second: dinoRunner sprites_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dinoRunner sprites_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 265
+        width: 113
+        height: 66
+      alignment: 9
+      pivot: {x: 0.13564551, y: 0.21482572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1043332b31469a0800000000000000
+      internalID: -6240841527544512091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinoRunner sprites_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 174
+        width: 64
+        height: 150
+      alignment: 9
+      pivot: {x: 0.41014886, y: 0.9664284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3878de269c70d54a0800000000000000
+      internalID: -6603112917125724285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinoRunner sprites_2
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 225
+        width: 163
+        height: 109
+      alignment: 9
+      pivot: {x: 0.461232, y: 0.2101278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34bf609f6225d8a0800000000000000
+      internalID: -6281076242738334661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinoRunner sprites_3
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 197
+        width: 62
+        height: 124
+      alignment: 9
+      pivot: {x: 0.24519397, y: 0.95015913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eabe90199b345c60800000000000000
+      internalID: 7805929582734785250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinoRunner sprites_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 233
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ddf662bb4c54bc0800000000000000
+      internalID: -3799414402534351546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinoRunner sprites_5
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 205
+        width: 79
+        height: 36
+      alignment: 9
+      pivot: {x: 0.09964984, y: 0.6597358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08ca5894485dfab0800000000000000
+      internalID: -4972721361910052852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinoRunner sprites_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 59
+        width: 170
+        height: 113
+      alignment: 9
+      pivot: {x: 0.13354753, y: 0.17770135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c49203698b91a170800000000000000
+      internalID: 8187996611910210760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinoRunner sprites_7
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 47
+        width: 84
+        height: 83
+      alignment: 9
+      pivot: {x: 0.23669979, y: 0.88067573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbfa748ef403cf70800000000000000
+      internalID: 9206207554466282439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinoRunner sprites_8
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 5
+        width: 199
+        height: 173
+      alignment: 9
+      pivot: {x: 0.9498604, y: 0.20778205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb72c33aa8231020800000000000000
+      internalID: 2311235745249131489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinoRunner sprites_9
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 112
+        width: 86
+        height: 55
+      alignment: 9
+      pivot: {x: 0.07137139, y: 0.84468466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ebe417e79ec38b0800000000000000
+      internalID: -5171001542852034975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

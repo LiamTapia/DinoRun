@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: e09433cf9edc1ef4e8665eafa109d1b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8888335573979796961
+    second: Trex c1 sprites_0
+  - first:
+      213: 3282357733340520543
+    second: Trex c1 sprites_1
+  - first:
+      213: -4396832489243009449
+    second: Trex c1 sprites_2
+  - first:
+      213: 3178615901733406533
+    second: Trex c1 sprites_3
+  - first:
+      213: -6490548780901786918
+    second: Trex c1 sprites_4
+  - first:
+      213: -7978882834462231458
+    second: Trex c1 sprites_5
+  - first:
+      213: -3660141263058207553
+    second: Trex c1 sprites_6
+  - first:
+      213: 5414583258419566805
+    second: Trex c1 sprites_7
+  - first:
+      213: -5357415111646315999
+    second: Trex c1 sprites_8
+  - first:
+      213: -8958824096713107576
+    second: Trex c1 sprites_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Trex c1 sprites_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 351
+        width: 182
+        height: 123
+      alignment: 9
+      pivot: {x: 0.16033652, y: 0.16273461}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a677c43e946a480800000000000000
+      internalID: -8888335573979796961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trex c1 sprites_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 321
+        width: 93
+        height: 154
+      alignment: 9
+      pivot: {x: 0.6311944, y: 0.94367546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50a481c7f64d8d20800000000000000
+      internalID: 3282357733340520543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trex c1 sprites_2
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 320
+        width: 89
+        height: 130
+      alignment: 9
+      pivot: {x: 0.24409811, y: 0.95675826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e16cd75205bf2c0800000000000000
+      internalID: -4396832489243009449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trex c1 sprites_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 242
+        width: 140
+        height: 85
+      alignment: 9
+      pivot: {x: 0.14558792, y: 0.09808224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5474a345256bc1c20800000000000000
+      internalID: 3178615901733406533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trex c1 sprites_4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 313
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada110da540fce5a0800000000000000
+      internalID: -6490548780901786918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trex c1 sprites_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 205
+        width: 67
+        height: 81
+      alignment: 9
+      pivot: {x: 0.25719258, y: 0.87155527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54ba630650554190800000000000000
+      internalID: -7978882834462231458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trex c1 sprites_6
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 238
+        width: 62
+        height: 55
+      alignment: 9
+      pivot: {x: 0.15889518, y: 0.84015113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc7aabd9e0943dc0800000000000000
+      internalID: -3660141263058207553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trex c1 sprites_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 188
+        width: 95
+        height: 38
+      alignment: 9
+      pivot: {x: 0.16607593, y: 0.62843245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d810ec29c6742b40800000000000000
+      internalID: 5414583258419566805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trex c1 sprites_8
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 64
+        width: 181
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5808915, y: 0.3763623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12af20c3753a6a5b0800000000000000
+      internalID: -5357415111646315999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trex c1 sprites_9
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 91
+        width: 170
+        height: 80
+      alignment: 9
+      pivot: {x: 0.96890414, y: 0.4186592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887943e23fcdba380800000000000000
+      internalID: -8958824096713107576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

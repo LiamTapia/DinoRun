@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: e615dc120865fbc408657a8bbf27521c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -413741064650804552
+    second: Velociraptor c3 sprites_0
+  - first:
+      213: -4436199493501625217
+    second: Velociraptor c3 sprites_1
+  - first:
+      213: -7766122051887977019
+    second: Velociraptor c3 sprites_2
+  - first:
+      213: -421859839470427928
+    second: Velociraptor c3 sprites_3
+  - first:
+      213: 8989116787773465683
+    second: Velociraptor c3 sprites_4
+  - first:
+      213: -7458415943672403998
+    second: Velociraptor c3 sprites_5
+  - first:
+      213: 4560340860816297948
+    second: Velociraptor c3 sprites_6
+  - first:
+      213: -2264759447069655098
+    second: Velociraptor c3 sprites_7
+  - first:
+      213: -6471934873410039782
+    second: Velociraptor c3 sprites_8
+  - first:
+      213: -2909887155181894798
+    second: Velociraptor c3 sprites_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Velociraptor c3 sprites_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 358
+        width: 182
+        height: 123
+      alignment: 9
+      pivot: {x: 0.15116549, y: 0.1602478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b23f7c91b8124af0800000000000000
+      internalID: -413741064650804552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velociraptor c3 sprites_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 325
+        width: 70
+        height: 155
+      alignment: 9
+      pivot: {x: 0.48851928, y: 0.9718167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c511d80147f62c0800000000000000
+      internalID: -4436199493501625217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velociraptor c3 sprites_2
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 325
+        width: 63
+        height: 135
+      alignment: 9
+      pivot: {x: 0.33416846, y: 0.9583747}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cda3e6f321393490800000000000000
+      internalID: -7766122051887977019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velociraptor c3 sprites_3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 269
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0ac5b06b0452af0800000000000000
+      internalID: -421859839470427928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velociraptor c3 sprites_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 269
+        width: 136
+        height: 72
+      alignment: 9
+      pivot: {x: 0.14545116, y: 0.14282438}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354ecb39712cfbc70800000000000000
+      internalID: 8989116787773465683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velociraptor c3 sprites_5
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 203
+        width: 96
+        height: 74
+      alignment: 9
+      pivot: {x: 0.22374725, y: 0.89096195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7eb4237326e7890800000000000000
+      internalID: -7458415943672403998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velociraptor c3 sprites_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 230
+        width: 96
+        height: 24
+      alignment: 9
+      pivot: {x: 0.19026215, y: 0.80136555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf87a7e9d5994f30800000000000000
+      internalID: 4560340860816297948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velociraptor c3 sprites_7
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 208
+        width: 87
+        height: 55
+      alignment: 9
+      pivot: {x: 0.065847464, y: 0.8506803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cff3b73845f190e0800000000000000
+      internalID: -2264759447069655098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velociraptor c3 sprites_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 49
+        width: 185
+        height: 154
+      alignment: 9
+      pivot: {x: 0.8475218, y: 0.2495134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a109eecb5811f26a0800000000000000
+      internalID: -6471934873410039782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velociraptor c3 sprites_9
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 45
+        width: 186
+        height: 112
+      alignment: 9
+      pivot: {x: 0.55616874, y: 0.3636675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27349e2bc010e97d0800000000000000
+      internalID: -2909887155181894798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
