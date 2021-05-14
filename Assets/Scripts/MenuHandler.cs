@@ -9,7 +9,8 @@ public class MenuHandler : MonoBehaviour
     public void changeMenu(int option)
     {
         moveMenuOut();
-        Menus[option].transform.localPosition = new Vector3(-350,0,0);
+        //Menus[option].transform.localPosition = new Vector3(-350,0,0);
+        Menus[option].SetActive(true);
         /*switch(option)
         {
             //Pone menu principa;
@@ -24,7 +25,8 @@ public class MenuHandler : MonoBehaviour
     {
         for(int i = 0; i < Menus.Length; i++)
         {
-            Menus[i].transform.localPosition = new Vector3(5,0,0);
+            //Menus[i].transform.localPosition = new Vector3(-900,0,0);
+            Menus[i].SetActive(false);
         }
     }
 }
