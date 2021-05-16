@@ -2,13 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BGMMenu : MenuHorizontal
+public class MenuSE : MenuHorizontal
 {
-
-    // Update is called once per frame
     public override void Update()
     {
         base.Update();
     }
-
 }
