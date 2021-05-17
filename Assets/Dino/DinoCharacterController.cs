@@ -5,6 +5,7 @@ using UnityEngine;
 public class DinoCharacterController : MonoBehaviour
 {
     [SerializeField] LayerMask platformLayers;
+    [SerializeField] LayerMask enemyLayers;
     [SerializeField] private Transform[] groundChecks;
     [SerializeField] private Transform[] wallChecks;
     public float runSpeed = 8f;
@@ -16,14 +17,23 @@ public class DinoCharacterController : MonoBehaviour
     private CharacterController character;
     private Vector3 velocity;
     private bool isGrounded;
+    private bool isOnEnemy;
     private float horizontalInput;
     public float jumpHeight = 2f;
     private bool isRunning = false;
-
+    public int maxHealth = 3;
+    public int health = 3;
+    public int ambar = 0;
+    private Transform position;
+    private bool isCrouching = false;
+    public int standingHeight = 3;
+    public int crouchHeight = 1;
+    public bool isInvinsible = false;
     // Start is called before the first frame update
     void Start()
     {
         character = GetComponent<CharacterController>();
+        position = GetComponent<Transform>();
         animator = GetComponentInChildren<Animator>();
         animator.SetBool("isRunning", false);
     }
@@ -39,10 +49,18 @@ public class DinoCharacterController : MonoBehaviour
             //transform.forward = new Vector3(horizontalInput, 0, Mathf.Abs(horizontalInput) - 1);
             //Revisar si esta tocando el piso
             isGrounded = false;
+            isOnEnemy = false;
             
             foreach(var groundCheck in groundChecks){
                 if(Physics.CheckSphere(groundCheck.position, 0.1f, platformLayers, QueryTriggerInteraction.Ignore)){
                     isGrounded = true;
+                    break;
+                }
+            }
+
+            foreach(var groundCheck in groundChecks){
+                if(Physics.CheckSphere(groundCheck.position, 0.1f, enemyLayers, QueryTriggerInteraction.Ignore)){
+                    isOnEnemy = true;
                     break;
                 }
             }
@@ -53,6 +71,24 @@ public class DinoCharacterController : MonoBehaviour
             } else{
                 //Agregar gravedad
                 velocity.y += gravity * Time.deltaTime;
+            }
+
+            if(isGrounded){
+                velocity.y = 0;
+            }
+
+            if(isGrounded && Input.GetKeyDown(KeyCode.DownArrow) && isCrouching == false){
+                isCrouching = true;
+                character.height = crouchHeight;
+                character.center = new Vector3(0,1,0);
+                animator.SetBool("isCrouching", true);
+            }
+
+            if(isCrouching && Input.GetKeyUp(KeyCode.DownArrow)){
+                isCrouching = false;
+                character.height = standingHeight;
+                character.center = new Vector3(0,1.5f,0);
+                animator.SetBool("isCrouching", false);
             }
 
             //Verifica que no se atore en paredes
@@ -76,9 +112,18 @@ public class DinoCharacterController : MonoBehaviour
                 jumpTimer = Time.time;
             }
 
-            if(isGrounded && (jumpPressed || (jumpTimer > 0 && Time.time < jumpTimer + jumpGracePeriod))){
+            if(isGrounded && (jumpPressed || (jumpTimer > 0 && Time.time < jumpTimer + jumpGracePeriod)) && isCrouching == false){
                 velocity.y += Mathf.Sqrt(jumpHeight * -2 * gravity);
                 jumpTimer = -1;
+                animator.SetTrigger("takeOff");
+                animator.SetBool("isJumping", true);
+            }
+
+            //logica salto sobre enemigo
+            if(isOnEnemy){
+               // velocity.y += Mathf.Sqrt(jumpHeight * -2 * gravity) * 1.3f;
+                velocity.y = 0;
+                velocity.y += Mathf.Sqrt(jumpHeight * -2 * gravity);
                 animator.SetTrigger("takeOff");
                 animator.SetBool("isJumping", true);
             }
@@ -90,6 +135,14 @@ public class DinoCharacterController : MonoBehaviour
 
             //Velocidad vertical
             character.Move(velocity * Time.deltaTime);
+
+            if((health == 0) || position.position.y < -150){
+                FindObjectOfType<GameManager>().EndGame();
+            }
         }
+    }
+
+    public Vector3 GetPosition(){
+        return position.position;
     }
 }
