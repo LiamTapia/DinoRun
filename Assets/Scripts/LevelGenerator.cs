@@ -6,7 +6,9 @@ public class LevelGenerator : MonoBehaviour
 {
     private const float PLAYER_DISTANCE_PART = 20f;
     [SerializeField] private Transform levelPart_Start;
-    [SerializeField] private List<Transform> levelPartList;
+    [SerializeField] private List<Transform> levelPartListSpace;
+    [SerializeField] private List<Transform> levelPartListRocket;
+    [SerializeField] private List<Transform> levelPartListAlienShip;
     [SerializeField] private DinoCharacterController player;
 
     private Vector3 lastEndPosition;
@@ -26,7 +28,9 @@ public class LevelGenerator : MonoBehaviour
     }
 
     private void SpawnLevelPart(){
-        Transform chosenLevelPart = levelPartList[Random.Range(0, levelPartList.Count)];
+        //Transform chosenLevelPart = levelPartListSpace[Random.Range(0, levelPartListSpace.Count)];
+        //Transform chosenLevelPart = levelPartListRocket[Random.Range(0, levelPartListRocket.Count)];
+        Transform chosenLevelPart = levelPartListAlienShip[Random.Range(0, levelPartListAlienShip.Count)];
         Transform lastLevelPartTransform = SpawnLevelPart(chosenLevelPart, lastEndPosition);
         lastEndPosition = lastLevelPartTransform.Find("EndPosition").position;
     }

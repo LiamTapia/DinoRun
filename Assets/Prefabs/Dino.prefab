@@ -120,6 +120,7 @@ MonoBehaviour:
   ambar: 0
   standingHeight: 3
   crouchHeight: 1
+  isInvinsible: 0
 --- !u!1 &2791102201478734325
 GameObject:
   m_ObjectHideFlags: 0
