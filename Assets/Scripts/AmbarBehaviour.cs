@@ -22,6 +22,7 @@ public class AmbarBehaviour : Interactable
     public override void OnTriggerEnter(Collider other)
     {
         player.ambar += 1;
+        SoundManagerScript.PlaySound("ambar");
         //base.OnTriggerEnter(other);
         Destroy(gameObject);
     }

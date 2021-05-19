@@ -20,7 +20,7 @@ public class DinoCharacterController : MonoBehaviour
     private bool isOnEnemy;
     private float horizontalInput;
     public float jumpHeight = 2f;
-    private bool isRunning = false;
+    public bool isRunning = false;
     public int maxHealth = 3;
     public int health = 3;
     public int ambar = 0;
@@ -117,6 +117,7 @@ public class DinoCharacterController : MonoBehaviour
                 jumpTimer = -1;
                 animator.SetTrigger("takeOff");
                 animator.SetBool("isJumping", true);
+                SoundManagerScript.PlaySound("jump");
             }
 
             //logica salto sobre enemigo
@@ -126,6 +127,7 @@ public class DinoCharacterController : MonoBehaviour
                 velocity.y += Mathf.Sqrt(jumpHeight * -2 * gravity);
                 animator.SetTrigger("takeOff");
                 animator.SetBool("isJumping", true);
+                SoundManagerScript.PlaySound("jump");
             }
 
             //Si esta en el aire le dice al animator que esta saltando

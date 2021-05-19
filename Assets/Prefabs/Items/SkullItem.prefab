@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 4348585365566477498}
   - component: {fileID: 4348585365566477497}
   - component: {fileID: 4348585365566477499}
+  - component: {fileID: -3320593316586095764}
   m_Layer: 0
   m_Name: SkullItem
   m_TagString: Untagged
@@ -140,3 +141,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.086708, y: 1.3851161, z: 1}
   m_Center: {x: 0.0044174194, y: 0.04028201, z: 0}
+--- !u!95 &-3320593316586095764
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4348585365566477496}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7f070cdeed240945a8d808fa0046b69, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

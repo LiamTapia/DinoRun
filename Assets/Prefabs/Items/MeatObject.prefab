@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3339858567369854245}
   - component: {fileID: 3339858567369854266}
   - component: {fileID: 3339858567369854267}
+  - component: {fileID: -6476256287964920587}
   m_Layer: 0
   m_Name: MeatObject
   m_TagString: Untagged
@@ -59,6 +60,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isInsideZone: 0
+--- !u!95 &-6476256287964920587
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3339858567369854264}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 787cfc90b7d186d47ad5a7236428dbdf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3339858567421949498
 GameObject:
   m_ObjectHideFlags: 0

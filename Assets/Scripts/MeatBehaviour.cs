@@ -22,6 +22,7 @@ public class MeatBehaviour : Interactable
         if(player.health < player.maxHealth){
             player.health += 1;
         }
+        SoundManagerScript.PlaySound("munch");
         Destroy(gameObject);
     }
 }
