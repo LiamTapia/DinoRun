@@ -24,6 +24,7 @@ public class DamageController : Interactable
             damaged = true;
             player.health -= 1;
             player.animator.SetTrigger("isHurt");
+            SoundManagerScript.PlaySound("dinoHurt");
         }
     }
 }

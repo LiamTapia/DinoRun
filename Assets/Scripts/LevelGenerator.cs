@@ -28,9 +28,15 @@ public class LevelGenerator : MonoBehaviour
     }
 
     private void SpawnLevelPart(){
-        //Transform chosenLevelPart = levelPartListSpace[Random.Range(0, levelPartListSpace.Count)];
-        //Transform chosenLevelPart = levelPartListRocket[Random.Range(0, levelPartListRocket.Count)];
-        Transform chosenLevelPart = levelPartListAlienShip[Random.Range(0, levelPartListAlienShip.Count)];
+        Transform chosenLevelPart = null;
+        switch(GameVariables.stageSelection){
+            case 1: chosenLevelPart = levelPartListRocket[Random.Range(0, levelPartListRocket.Count)];
+            break;
+            case 2: chosenLevelPart = levelPartListSpace[Random.Range(0, levelPartListSpace.Count)];
+            break;
+            case 3: chosenLevelPart = levelPartListAlienShip[Random.Range(0, levelPartListAlienShip.Count)];
+            break;
+        }
         Transform lastLevelPartTransform = SpawnLevelPart(chosenLevelPart, lastEndPosition);
         lastEndPosition = lastLevelPartTransform.Find("EndPosition").position;
     }

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5458704533497393885}
   - component: {fileID: 5458704533497393884}
   - component: {fileID: 5458704533497393887}
+  - component: {fileID: 3136501344853571882}
   m_Layer: 0
   m_Name: AmbarObject
   m_TagString: Untagged
@@ -59,6 +60,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isInsideZone: 0
+--- !u!95 &3136501344853571882
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5458704533497393886}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c2f931d677eb9574fa3551f00e1ef218, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5458704534709917961
 GameObject:
   m_ObjectHideFlags: 0

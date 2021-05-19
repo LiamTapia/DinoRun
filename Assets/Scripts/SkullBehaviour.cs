@@ -23,6 +23,7 @@ public class SkullBehaviour : Interactable
 
     IEnumerator Pickup(Collider other){
         player.isInvinsible = true;
+        SoundManagerScript.PlaySound("skull");
         GetComponentInChildren<SpriteRenderer>().enabled = false;
         GetComponent<BoxCollider>().enabled = false;
         yield return new WaitForSeconds(5);

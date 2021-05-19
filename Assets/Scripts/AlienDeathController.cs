@@ -20,6 +20,7 @@ public class AlienDeathController : Interactable
     public override void Interact()
     {
         animator.SetTrigger("isDeath");
+        SoundManagerScript.PlaySound("monsterDeath");
         Destroy(gameObject,0.2f);
     }
 }
