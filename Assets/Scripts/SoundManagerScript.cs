@@ -17,6 +17,7 @@ public class SoundManagerScript : MonoBehaviour
         skull = Resources.Load<AudioClip> ("pickupSkull");
 
         audioSource = GetComponent<AudioSource>();
+        audioSource.volume = VolumeVariables.SoundEffetcsVolume;
     }
 
     // Update is called once per frame

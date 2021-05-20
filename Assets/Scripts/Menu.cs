@@ -13,6 +13,7 @@ public class Menu : MonoBehaviour
     public KeyCode keyNext = KeyCode.DownArrow;
     public KeyCode keyBefore = KeyCode.UpArrow;
     public bool SpecialMenu = false;
+    public AudioSource ButtonSound;
 
     // Update is called once per frame
     public virtual void Update()
@@ -32,6 +33,7 @@ public class Menu : MonoBehaviour
                 ButtonList[activeButton].GetComponentInChildren<Text>().color = normalColor;
             
             activeButton = (activeButton + 1) % ButtonList.Length;
+            playButtonSound();
         }
             
         if (Input.GetKeyDown(keyBefore))
@@ -43,6 +45,8 @@ public class Menu : MonoBehaviour
                 activeButton = ButtonList.Length - 1;
             else
                 activeButton--;
+            
+            playButtonSound();
         }
     }
 
@@ -56,5 +60,11 @@ public class Menu : MonoBehaviour
             if(ButtonList[i].GetComponentInChildren<Text>())
                 ButtonList[i].GetComponentInChildren<Text>().color = new Color32(31,190,212,255);
         
+         playButtonSound();
+    }
+
+    public void playButtonSound()
+    {
+        ButtonSound.Play();
     }
 }

@@ -24,6 +24,7 @@ public class MenuHorizontal : Menu
                 ButtonList[activeButton].GetComponentInChildren<Text>().color = normalColor;
             
             activeButton = (activeButton + 1) % (ButtonList.Length - 1);
+            playButtonSound();
         }
         else if (Input.GetKeyDown(keyBefore) && activeButton != (ButtonList.Length - 1))
         {
@@ -34,6 +35,8 @@ public class MenuHorizontal : Menu
                 activeButton = ButtonList.Length - 2;
             else
                 activeButton--;
+
+            playButtonSound();
         }
         else if (Input.GetKeyDown(specialKey1) || Input.GetKeyDown(specialKey2))
         {
@@ -44,6 +47,14 @@ public class MenuHorizontal : Menu
                 activeButton = ButtonList.Length - 1;
             else 
                 activeButton = 0;
+
+             playButtonSound();
         }
     }
+
+    public virtual void ManageVolumen(float change)
+    {}
+
+    public virtual void VolumenIndicator()
+    {}
 }
