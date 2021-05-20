@@ -6,6 +6,8 @@ public class PauseMenu : MonoBehaviour
 {
     private DinoCharacterController player;
     public bool isPaused = false;
+    public GameObject MenuPausa;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -19,7 +21,7 @@ public class PauseMenu : MonoBehaviour
             if(isPaused){
                 ResumeGame();
             } else{
-                PauseGame();
+                PauseGame();  
             }
         }
     }
@@ -29,10 +31,12 @@ public class PauseMenu : MonoBehaviour
         player.isRunning = false;
         player.animator.SetBool("isRunning", false);
         isPaused = true;
+        MenuPausa.SetActive(true);
     }
 
     public void ResumeGame(){
         Time.timeScale = 1f;
         isPaused = false;
+        MenuPausa.SetActive(false);
     }
 }
