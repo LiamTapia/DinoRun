@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d0199c11aa6f514784c5c69cd8378d8, type: 3}
   m_Name: PlayFabEditorPrefsSO
   m_EditorClassIdentifier: 
-  DevAccountEmail: liam.tapia@uabc.edu.mx
-  DevAccountToken: 9t9mosj7ji97q31k6kuyzppkk56uan6r8on1kokrhm96twhte8drhhx6p1gxxr1t89p9f9bd5x7ykhrhbjn5ihgt96bpjcebxzzhef5k6im7f7wx8dtxz4wcjngq4i5ap7odwnbuaacuacr6u5564c6ercrgk6wfzuanfw4q9qkj5qdtkpihpsei44xhgcu7oidges36
-  SelectedStudio: ProyectoDDI
-  SdkPath: Assets/PlayFabSDK
+  DevAccountEmail: 
+  DevAccountToken: 
+  SelectedStudio: 
+  SdkPath: 
   EdExPath: 
   LocalCloudScriptPath: 
   PanelIsShown: 0
-  curMainMenuIdx: 1
+  curMainMenuIdx: 0
   curSubMenuIdx: 0
