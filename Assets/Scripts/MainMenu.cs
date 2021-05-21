@@ -16,4 +16,9 @@ public class MainMenu : Menu
     {
         base.Update();
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }

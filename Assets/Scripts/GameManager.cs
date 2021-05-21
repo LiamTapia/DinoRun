@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public List<AudioSource> music;
     public AudioSource ButtonSound;
     public GameObject GameOverScreen;
+    public LocalLeaderboard local;
 
     private void Awake() {
         player = DinoCharacterController.FindObjectOfType<DinoCharacterController>();
@@ -40,7 +41,10 @@ public class GameManager : MonoBehaviour
         if(gameHasEnded == false){
             gameHasEnded = true;
             //Restart();
-            GameOverScreen.SetActive(true);
+            //onlineLeaderboard.SendLeaderboard(player.ambar);
+            local.CheckIfBelongsInTable(player.ambar);
+            //onlineLeaderboard.checkIfEnteredLeaderboard(player.ambar);
+            //GameOverScreen.SetActive(true);
         }
     }
 
